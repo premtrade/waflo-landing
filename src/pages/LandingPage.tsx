@@ -176,7 +176,7 @@ const pricingTiers = [
   },
 ]
 
-const APP_URL = 'https://app.waflo.com'
+const APP_URL = 'https://waflo.vercel.app'
 
 export default function LandingPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
